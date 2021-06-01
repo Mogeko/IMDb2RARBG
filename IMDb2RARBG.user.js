@@ -1,14 +1,15 @@
 // ==UserScript==
 // @name         IMDb2RARBG
 // @namespace    https://mogeko.me
-// @version      0.1
+// @version      0.1.1
 // @description  Add direct links to RARBG & TPB from IMDb(.cn)
 // @author       Mogeko
+// @supportURL   https://github.com/Mogeko/userscript-imdb2rarbg/issues
 // @match        https://www.imdb.cn/title/*
 // @icon         https://cdn.imdb.cn/static/assets/img/imdb.ico
-// @updateURL    https://raw.githubusercontent.com/Mogeko/IMDb2RARBG/master/IMDb2RARBG.meta.js
-// @downloadURL  https://raw.githubusercontent.com/Mogeko/IMDb2RARBG/master/IMDb2RARBG.user.js
+// @updateURL    https://cdn.jsdelivr.net/gh/Mogeko/userscript-imdb2rarbg@master/IMDb2RARBG.user.js
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 const IMDB = document.location.toString().split("/")[4];
